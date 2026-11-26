@@ -17,6 +17,8 @@ git clone https://github.com/AI3X123/neotunes.git
 
 cd neotunes
 
+touch src/bluetooth.h # This can be empty; it's fine. You can also place your Bluetooth device's MAC address here if you would like to be able to connect to it from within neotunes.
+
 make
 ```
 

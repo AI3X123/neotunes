@@ -13,9 +13,9 @@ Then, install ffplay.
 Next, run these commands:
 
 ```console
-git clone <my repo url>
+git clone https://github.com/AI3X123/neotunes.git
 
-cd <my repo name>
+cd neotunes
 
 make
 ```

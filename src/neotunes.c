@@ -43,6 +43,9 @@
 #define query_str_max_len 150 // For search mode
 
 #include "bluetooth.h" // This contains the MAC address of my earbuds
+#ifndef BLUETOOTH_MAC_ADDRESS
+#define BLUETOOTH_MAC_ADDRESS ""
+#endif
 
 // Determine how deeply scrolled a window (LIBRARY) should be when a selected value changes
 int determine_scroll_val(int target_select, int scroll_val, int window_height) {
